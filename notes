@@ -1,0 +1,9 @@
+1. solve the cross env problem for webpack-simple
+rm -rf node_modules
+rm package-lock.json yarn.lock
+npm cache clear --force
+npm install
+
+2. get bootstrap
+    npm install bootstrap --save
+    copy include in index
